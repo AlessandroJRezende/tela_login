@@ -29,6 +29,7 @@ class PortaisPage extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           const Text('Portal de Ensalamento'),
+          
           Image.network(Imglink,fit: BoxFit.cover,height: 40,),
         ],
       )),

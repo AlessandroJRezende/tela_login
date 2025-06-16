@@ -6,9 +6,9 @@ import 'package:tela_login/dashboard_aluno.dart';
 import 'package:tela_login/dashboard_professor.dart';
 
 class LoginPage extends StatefulWidget {
-  final String role; // 👈 Novo argumento
+  final String role; //  Novo argumento
 
-  const LoginPage({super.key, required this.role}); // 👈 Construtor atualizado
+  const LoginPage({super.key, required this.role}); //  Construtor atualizado
   
   @override
   _LoginPageState createState() => _LoginPageState();
